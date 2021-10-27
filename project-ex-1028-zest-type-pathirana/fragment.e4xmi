@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_5uxRkC3PEeymg5_6kcLfCw">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_6Q0OsC3PEeymg5_6kcLfCw" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_8VFMgC3PEeymg5_6kcLfCw" elementId="project-ex-1028-zest-type-pathirana.partdescriptor.simplezestview-1028pathirana" label="Simple Zest View - 1028 Pathirana" iconURI="platform:/plugin/project-ex-1028-zest-type-pathirana/icons/sample.png" contributionURI="bundleclass://project-ex-1028-zest-type-pathirana/view.SimpleZestViewer">
+      <menus xsi:type="menu:PopupMenu" xmi:id="_m-_1UC63EeyqffEu-2XlqQ" elementId="project-ex-1028-zest-type-pathirana.popupmenu.0">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_nU-FUC63EeyqffEu-2XlqQ" elementId="project-ex-1028-zest-type-pathirana.handledmenuitem.readfile" label="Read File + Show Graph" command="_Zusx4C3QEeymg5_6kcLfCw"/>
+      </menus>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_X0a2gC3QEeymg5_6kcLfCw" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_Zusx4C3QEeymg5_6kcLfCw" elementId="project-ex-1028-zest-type-pathirana.command.showgraph" commandName="ShowGraph"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_bQ3IMC3QEeymg5_6kcLfCw" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_fwg4cC3SEeymg5_6kcLfCw" elementId="project-ex-1028-zest-type-pathirana.handler.0" contributionURI="bundleclass://project-ex-1028-zest-type-pathirana/handler.SimpleZestViewHandler" command="_Zusx4C3QEeymg5_6kcLfCw"/>
+  </fragments>
+</fragment:ModelFragments>
